@@ -1,0 +1,27 @@
+Problem Name: Circular Merging
+Problem Difficulty: None
+Problem Constraints: 2 ≤ N ≤ 400 
+1 ≤ ai ≤ 10^9 for each valid i
+Problem Description:
+N integers A1,A2,…,AN are placed in a circle in such a way that for each valid i, Ai and Ai+1 are adjacent, and A1 and AN are also adjacent.
+
+We want to repeat the following operation exactly N−1 times (until only one number remains):
+
+:- Select two adjacent numbers. Let's denote them by a and b.
+:- Score a+b penalty points.
+:- Erase both a and b from the circle and insert a+b in the space between them.
+
+What is the minimum number of penalty points we can score?
+
+Input Format: The first line contains a single integer N.
+The second line contains N space-separated integers a1,a2,…,aN.
+Sample Input: 
+3
+10 10 1
+Output Format: Print a single line containing one integer — the minimum number of penalty points.
+Sample Output: 32
+
+
+
+=====Solution=====
+null
